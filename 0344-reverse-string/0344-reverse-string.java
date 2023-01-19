@@ -11,21 +11,3 @@ class Solution {
         revstr(s,high+1,low-1);
     }
 }
-// class Solution {
-//     public void reverseString(char[] s) {
-//         int start = 0, end = s.length - 1;
-//         recStr(s, start, end);
-//     }
-
-//     public void recStr(char[] s, int h, int l) {
-//         // if(l % 2 == 0)  {
-//         //     if(h == l) return;
-//         // } else {
-//             if(h > l) return; 
-//         // }
-//         char temp = s[h];
-//         s[h] = s[l];
-//         s[l] = temp;
-//         recStr(s, h+1, l-1);
-//     }
-// }
